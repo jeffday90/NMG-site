@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 
-// show[0] = venue
-// show[1] = 
+// border around each show
+    // dots change colors as they cross under the border
 
 const Show = styled.div`
     padding: 10px;
