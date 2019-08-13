@@ -6,8 +6,10 @@ import MusicEmbed from './MusicEmbed.jsx';
 
 const Title = styled.h1`
     text-align: center;
-    padding-top: 200px;
-
+    margin-top: 200px;
+    border: solid;
+    margin-left: 300px;
+    margin-right: 300px;
 `;
 
 // ideas:
@@ -33,7 +35,7 @@ class App extends React.Component {
                     {venue: 'Oakland at The Hole', bands: 'Dick Stusso, Club Night, Half Stack, Boy Scouts', date: 'December 7th'},
                     {venue: 'San Francisco at the Elbo Room', bands: `The She's, Thriftys`, date: 'December 4th'}
                 ],
-                musicEmbed: `<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=630296471/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://newmeasurementgroup.bandcamp.com/album/the-new-measurement-group">The New Measurement Group by new measurement group</a></iframe>`
+                // musicEmbed: `<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=630296471/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://newmeasurementgroup.bandcamp.com/album/the-new-measurement-group">The New Measurement Group by new measurement group</a></iframe>`
         }
     }  
   

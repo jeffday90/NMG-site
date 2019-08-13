@@ -8,6 +8,8 @@ import styled from 'styled-components';
 const Show = styled.div`
     padding: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 `;
 
 const EachShow = (props) => {
